@@ -1,5 +1,4 @@
 # Gatekeeper
-[![Build Status](https://travis-ci.org/wackyjackson/gatekeeper.svg?branch=master)](https://travis-ci.org/wackyjackson/gatekeeper)<br>
 Gatekeeper provides simple and local hosting to start your own Discord verification bot. This bot can allow you to weed out bots that spam incessantly so that you can enjoy your server. Please note that this repository is a more maintained and secure version of [Discaptcha](https://github.com/ahoys/discaptcha).
 
 ## Installation
