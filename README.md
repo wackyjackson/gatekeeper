@@ -7,7 +7,11 @@ Gatekeeper provides simple and local hosting to start your own Discord verificat
 3. Download the [latest release of Gatekeeper](https://github.com/wackyjackson/gatekeeper/archive/master.zip) and extract it if necessary.
 4. `cd` to the general location of Gatekeeper; this should look something like `cd ./Desktop/Gatekeeper`.
 5. Run `npm install`. If you encounter permissions errors, run `sudo npm install`.
-6. Next, you'll need to configure the bot. You must do this before continuing. 
+6. Next, you'll need to [configure the bot](https://github.com/wackyjackson/gatekeeper#configuration). This is required so your bot will know how to behave in its home.
+7. Add the bot to your Discord server by going to your [Developer Portal](https://discordapp.com/developers/applications) and adding `bot` to your OAuth scope. This can be done by doing the following: `Your Application > OAuth2 > Scopes` and then check `bot`. Add `Administrator` to the newly appearing box below it and go to the link that appeared also. It should look something like `https://discordapp.com/api/oauth2/authorize?client_id=`.
+8. Navigate again to the general directory of Gatekeeper if you aren't already there and run `npm start`. This will bring your bot to life!
+
+Check to see if your bot is now running! If it isn't, you may have incorrectly completed a [configuration] (https://github.com/wackyjackson/gatekeeper#configuration) step wrong. Still can't figure it out? Open up an [issue](https://github.com/wackyjackson/gatekeeper/issues) and I'll help you out.
 
 ## Configuration
 Any configuration made to Gatekeeper is done within `Gatekeeper/configs`
