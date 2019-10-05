@@ -1,0 +1,24 @@
+{
+  "name": "discaptcha",
+  "version": "1.2.0",
+  "description": "Discaptcha barricades your Discord server against unwanted bots.",
+  "author": "Raunhofer",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/discaptcha.js",
+    "test": "jest",
+    "lint": "eslint src/ --fix"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "immutable": "^4.0.0-rc.12",
+    "logscribe": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3"
+  }
+}
