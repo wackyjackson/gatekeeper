@@ -27,9 +27,8 @@ Gatekeeper
 ├── .travis.yml
 ├── README.md
 ├── package.json
-└── yarn.lock
-    
- ```
+└── yarn.lock 
+```
 
 #### `/configs/auth.json`
 This file stores information about your bot and client ID that you would get after making a bot and application on the [Discord Developer Portal](https://discordapp.com/developers/applications). If this file does not exist, create it under the `/configs` directory. It must have a `.json` file extension! If you are creating a new file, add the following code to it. If not, edit it accordingly.
