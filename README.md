@@ -1,4 +1,5 @@
 # Gatekeeper
+**This bot is intended for self-hosting only. It does not create framework for a publicly hostable Discord bot.**<br>
 Gatekeeper provides simple and local hosting to start your own Discord verification bot. This bot can allow you to weed out bots that spam incessantly so that you can enjoy your server. Please note that this repository is a more maintained and secure version of [Discaptcha](https://github.com/ahoys/discaptcha).
 
 ## Installation
