@@ -66,8 +66,8 @@ This configuration file sets up and stores information about where the bot can o
 }
 ```
 
-*  `clientOptions:` this allows you to set up more advanced options for the initial connection with Discord. There is no need to add or remove this line as it can run safely without any content.
-* `timeToVerifyInMs:` the value following this is the time in milliseconds that the user will have to verify before being removed from the server. 
-* `GUILD_ID_HERE:` this text must be replaced with the ID of the server you wish to run this bot in. This can be done by right-clicking on the server's icon and pressing Copy ID. 
-* `verificationRoleId:` change the value following this to the role ID of the role you wish to give to authenticated users. This can be done by doing the following: `Your Server > Settings > Roles` then right-click on the appropriate role and press Copy ID. 
-* `moderationRoleId:` change the value following this to the role ID of the role you wish to give to moderators who can access more advanced commands within the bot. This is not necessary for the functionality of the bot.
+*  `clientOptions:` this allows you to set up more advanced options for the initial connection with Discord. There is no need to add or remove this line as it can run safely without any content
+* `timeToVerifyInMs:` the value following this is the time in milliseconds that the user will have to verify before being removed from the server
+* `GUILD_ID_HERE:` this text must be replaced with the ID of the server you wish to run this bot in. This can be done by right-clicking on the server's icon and pressing Copy ID
+* `verificationRoleId:` change the value following this to the role ID of the role you wish to give to authenticated users. This can be done by doing the following: `Your Server > Settings > Roles` then right-click on the appropriate role and press Copy ID
+* `moderationRoleId:` change the value following this to the role ID of the role you wish to give to moderators who can access more advanced commands within the bot. This is not necessary for the functionality of the bot
